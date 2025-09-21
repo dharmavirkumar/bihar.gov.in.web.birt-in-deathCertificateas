@@ -101,6 +101,24 @@ app.get('/deathCertificate/RAMAWATIKUMARIHARSIDHI', (req, res) => {
    res.render("25");
 });
 
+app.get('/deathCertificate/BABITADEVIHARSIDHI', (req, res) => {
+   res.render("26");
+});
+app.get('/deathCertificate/REKHADEVIKOTWA', (req, res) => {
+   res.render("27");
+});
+app.get('/deathCertificate/SHARDADEVILAKHAURA', (req, res) => {
+   res.render("28");
+});
+app.get('/deathCertificate/ANITA DEVI KALYANPUR', (req, res) => {
+   res.render("29");
+});
+app.get('/deathCertificate/ANITADEVIKALYANPOUREC', (req, res) => {
+   res.render("30");
+});
+
+
+
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
