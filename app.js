@@ -24,6 +24,15 @@ app.get('/a', (req, res) => {
 app.get('/deathCertificate/urmila', (req, res) => {
    res.render("2");
 });
+app.get('/deathCertificate/ANSHUDEVILAKHAURA ', (req, res) => {
+   res.render("3");
+});
+app.get('/deathCertificate/MIRADEVILAKHAURA ', (req, res) => {
+   res.render("4");
+});
+app.get('/deathCertificate/REETADEVIHARSIDHI', (req, res) => {
+   res.render("5");
+});
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
