@@ -100,7 +100,6 @@ app.get('/deathCertificate/SIYADEVIHARSIDHI', (req, res) => {
 app.get('/deathCertificate/RAMAWATIKUMARIHARSIDHI', (req, res) => {
    res.render("25");
 });
-
 app.get('/deathCertificate/BABITADEVIHARSIDHI', (req, res) => {
    res.render("26");
 });
@@ -118,7 +117,21 @@ app.get('/deathCertificate/ANITADEVIKALYANPOUREC', (req, res) => {
 });
 
 
-
+app.get('/deathCertificate/GITADEVIJAGDISHPUR', (req, res) => {
+   res.render("31");
+});
+app.get('/deathCertificate/PUNAMDEVIJAGDISHPUR', (req, res) => {
+   res.render("32");
+});
+app.get('/deathCertificate/CHANDADEVIJAGDISHPUR', (req, res) => {
+   res.render("33");
+});
+app.get('/deathCertificate/GEETADEVIJAGDISHPUR', (req, res) => {
+   res.render("34");
+});
+app.get('/deathCertificate/ARSWATIDEVIJAGDISHPUR', (req, res) => {
+   res.render("35");
+});
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
