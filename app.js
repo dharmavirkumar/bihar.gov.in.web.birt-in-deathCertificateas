@@ -76,8 +76,6 @@ app.get('/deathCertificate/RAMBHADEVIJAGDISHPUR', (req, res) => {
 app.get('/deathCertificate/GAYTREEDEVIKOTWA', (req, res) => {
    res.render("18");
 });
-
-
 app.get('/deathCertificate/KAMRUNKHATUNKOTWA', (req, res) => {
    res.render("19");
 });
@@ -85,6 +83,23 @@ app.get('/deathCertificate/ASAMAKHATUNKOTWA', (req, res) => {
    res.render("20");
 });
 
+
+
+app.get('/deathCertificate/AFSANAKHATUNKOTWA', (req, res) => {
+   res.render("21");
+});
+app.get('/deathCertificate/SABILAKHATUNKOTWA', (req, res) => {
+   res.render("22");
+});
+app.get('/deathCertificate/SONADEVIKOTWA', (req, res) => {
+   res.render("23");
+});
+app.get('/deathCertificate/SIYADEVIHARSIDHI', (req, res) => {
+   res.render("24");
+});
+app.get('/deathCertificate/RAMAWATIKUMARIHARSIDHI', (req, res) => {
+   res.render("25");
+});
 
 // Start the server
 app.listen(port, () => {
