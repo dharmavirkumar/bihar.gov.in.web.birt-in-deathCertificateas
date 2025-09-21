@@ -24,10 +24,10 @@ app.get('/a', (req, res) => {
 app.get('/deathCertificate/urmila', (req, res) => {
    res.render("2");
 });
-app.get('/deathCertificate/anshudevilakhaura ', (req, res) => {
+app.get('/deathCertificate/anshudevilakhaura', (req, res) => {
    res.render("3");
 });
-app.get('/deathCertificate/miradevilakhaura ', (req, res) => {
+app.get('/deathCertificate/miradevilakhaura', (req, res) => {
    res.render("4");
 });
 app.get('/deathCertificate/reetadeviharsidhi', (req, res) => {
