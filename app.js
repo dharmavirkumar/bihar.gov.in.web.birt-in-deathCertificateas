@@ -48,6 +48,42 @@ app.get('/deathCertificate/NIKUKUMARIKOTWA', (req, res) => {
 app.get('/deathCertificate/CHINTUDEVIHARSIDHI', (req, res) => {
    res.render("10");
 });
+
+
+app.get('/deathCertificate/CHINTUDEVIHARSIDHI', (req, res) => {
+   res.render("11");
+});
+
+
+app.get('/deathCertificate/SUNITADEVIKOTWA', (req, res) => {
+   res.render("12");
+});
+app.get('/deathCertificate/SHANTIDEVIKALYANPUR', (req, res) => {
+   res.render("13");
+});
+app.get('/deathCertificate/ANUDEVIKALYANPUR', (req, res) => {
+   res.render("14");
+});
+app.get('/deathCertificate/SARITADEVIKALYANPUR', (req, res) => {
+   res.render("15");
+});
+app.get('/deathCertificate/CHHAYAKUMARIJAGDISHPUR', (req, res) => {
+   res.render("16");
+});
+app.get('/deathCertificate/RAMBHADEVIJAGDISHPUR', (req, res) => {
+   res.render("17");
+});
+app.get('/deathCertificate/GAYTREEDEVIKOTWA', (req, res) => {
+   res.render("18");
+});
+// app.get('/deathCertificate/CHINTUDEVIHARSIDHI', (req, res) => {
+//    res.render("19");
+// });
+// app.get('/deathCertificate/CHINTUDEVIHARSIDHI', (req, res) => {
+//    res.render("20");
+// });
+
+
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
