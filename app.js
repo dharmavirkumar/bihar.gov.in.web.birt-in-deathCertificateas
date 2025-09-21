@@ -21,6 +21,9 @@ app.get('/a', (req, res) => {
    res.render("1");
 });
 
+app.get('/deathCertificate/urmila', (req, res) => {
+   res.render("2");
+});
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
