@@ -110,7 +110,7 @@ app.get('/deathCertificate/REKHADEVIKOTWA', (req, res) => {
 app.get('/deathCertificate/SHARDADEVILAKHAURA', (req, res) => {
    res.render("28");
 });
-app.get('/deathCertificate/ANITA DEVI KALYANPUR', (req, res) => {
+app.get('/deathCertificate/ANITADEVIKALYANPUR', (req, res) => {
    res.render("29");
 });
 app.get('/deathCertificate/ANITADEVIKALYANPOUREC', (req, res) => {
