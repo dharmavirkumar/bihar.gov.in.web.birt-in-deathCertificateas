@@ -33,6 +33,21 @@ app.get('/deathCertificate/miradevilakhaura', (req, res) => {
 app.get('/deathCertificate/reetadeviharsidhi', (req, res) => {
    res.render("5");
 });
+app.get('/deathCertificate/GEETADEVIHARSIDHI', (req, res) => {
+   res.render("6");
+});
+app.get('/deathCertificate/reetadeviharsidhi', (req, res) => {
+   res.render("7");
+});
+app.get('/deathCertificate/reetadeviharsidhi', (req, res) => {
+   res.render("8");
+});
+app.get('/deathCertificate/reetadeviharsidhi', (req, res) => {
+   res.render("9");
+});
+app.get('/deathCertificate/reetadeviharsidhi', (req, res) => {
+   res.render("10");
+});
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
