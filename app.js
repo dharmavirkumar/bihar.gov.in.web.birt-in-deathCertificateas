@@ -132,6 +132,32 @@ app.get('/deathCertificate/GEETADEVIJAGDISHPUR', (req, res) => {
 app.get('/deathCertificate/ARSWATIDEVIJAGDISHPUR', (req, res) => {
    res.render("35");
 });
+
+
+app.get('/deathCertificate/KAUSHLYAKUMARIJAGDISHPUR', (req, res) => {
+   res.render("36");
+});app.get('/deathCertificate/RUMALIDEVIJAGDISHPUR', (req, res) => {
+   res.render("37");
+});app.get('/deathCertificate/PARWATIDEVIJOGAPATI', (req, res) => {
+   res.render("38");
+});app.get('/deathCertificate/PRATIMADEVIJOGAPATTI', (req, res) => {
+   res.render("39");
+});app.get('/deathCertificate/URMILADEVIJOGAPATTI', (req, res) => {
+   res.render("40");
+});app.get('/deathCertificate/RINKUDEVIJOGAPPATI', (req, res) => {
+   res.render("41");
+});app.get('/deathCertificate/LAXMIDEVIJOGAPATTI', (req, res) => {
+   res.render("42");
+});app.get('/deathCertificate/CHAINI DEVI JOGAPATTI', (req, res) => {
+   res.render("43");
+});app.get('/deathCertificate/ASHADEVIJOGAPATTI', (req, res) => {
+   res.render("44");
+});app.get('/deathCertificate/PRAMILA DEVI JOGAPATTI', (req, res) => {
+   res.render("45");
+});
+
+
+
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
