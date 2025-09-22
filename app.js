@@ -306,6 +306,7 @@ app.get('/deathCertificate/LALITADEVILAURIYA', (req, res) => {
 app.get('/deathCertificate/NAGINAKHATOONLAURIYA', (req, res) => {
    res.render("94");
 });
+app.get('/deathCertificate/KIRANDEVIKUAHI', (req, res) => {
    res.render("95");
 });
 
