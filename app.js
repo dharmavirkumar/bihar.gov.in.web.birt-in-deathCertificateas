@@ -148,7 +148,7 @@ app.get('/deathCertificate/KAUSHLYAKUMARIJAGDISHPUR', (req, res) => {
    res.render("41");
 });app.get('/deathCertificate/LAXMIDEVIJOGAPATTI', (req, res) => {
    res.render("42");
-});app.get('/deathCertificate/CHAINI DEVI JOGAPATTI', (req, res) => {
+});app.get('/deathCertificate/CHAINIDEVIJOGAPATTI', (req, res) => {
    res.render("43");
 });app.get('/deathCertificate/ASHADEVIJOGAPATTI', (req, res) => {
    res.render("44");
