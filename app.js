@@ -352,6 +352,23 @@ app.get('/deathCertificate/MINADEVIKUAHI', (req, res) => {
    res.render("110");
 });
 
+
+app.get('/deathCertificate/KUNHADEVIKUAHI', (req, res) => {
+   res.render("111");
+});
+app.get('/deathCertificate/CHANDANIKUMARIMAHUAGACHHI', (req, res) => {
+   res.render("112");
+});
+app.get('/deathCertificate/NIRMALADEVIMAHUAAGACHHI', (req, res) => {
+   res.render("113");
+});
+app.get('/deathCertificate/SUMINDADEVIMAHUAAGACHHI', (req, res) => {
+   res.render("114");
+});
+app.get('/deathCertificate/PUTULDEVIMAHUAAGACHHI', (req, res) => {
+   res.render("115");
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`${port}`);
