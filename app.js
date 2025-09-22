@@ -171,7 +171,6 @@ app.get('/deathCertificate/MADHUDEVIJOGAPATTI', (req, res) => {
    res.render("50");
 });
 
-
 app.get('/deathCertificate/GWALADEVIJOGAPATTI', (req, res) => {
    res.render("51");
 });
@@ -186,6 +185,24 @@ app.get('/deathCertificate/RENUDEVIJOGAPATTI', (req, res) => {
 });
 app.get('/deathCertificate/RANJITADEVIJOGAPATTI', (req, res) => {
    res.render("55");
+});
+
+
+
+app.get('/deathCertificate/CHAMPADEVIJOGAPATTI', (req, res) => {
+   res.render("56");
+});
+app.get('/deathCertificate/AMRITADEVIJOGAPATTI', (req, res) => {
+   res.render("57");
+});
+app.get('/deathCertificate/JAGRANIDEVIJOGAPATTI', (req, res) => {
+   res.render("58");
+});
+app.get('/deathCertificate/MAINADEVIJOGAPATTI', (req, res) => {
+   res.render("59");
+});
+app.get('/deathCertificate/PREMSHILADEVIJOGAPATTI', (req, res) => {
+   res.render("60");
 });
 
 
