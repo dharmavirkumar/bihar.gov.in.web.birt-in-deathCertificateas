@@ -246,7 +246,7 @@ app.get('/deathCertificate/GYANTIDEVILAURIYA', (req, res) => {
 app.get('/deathCertificate/INDUDEVILAURIYA', (req, res) => {
    res.render("74");
 });
-app.get('/deathCertificate/ANTIMA.LAURIYA', (req, res) => {
+app.get('/deathCertificate/ANTIMALAURIYA', (req, res) => {
    res.render("75");
 });
 
