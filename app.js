@@ -173,7 +173,7 @@ app.get('/deathCertificate/RITADEVIJOGAPATTI', (req, res) => {
 app.get('/deathCertificate/MADHUDEVIJOGAPATTI', (req, res) => {
    res.render("50");
 });
-e
+
 
 
 
