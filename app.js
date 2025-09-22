@@ -155,9 +155,6 @@ app.get('/deathCertificate/KAUSHLYAKUMARIJAGDISHPUR', (req, res) => {
 });app.get('/deathCertificate/PRAMILADEVIJOGAPATTI', (req, res) => {
    res.render("45");
 });
-
-
-
 app.get('/deathCertificate/SAYRAKHATUNJOGAPATTI', (req, res) => {
    res.render("46");
 });
@@ -175,6 +172,21 @@ app.get('/deathCertificate/MADHUDEVIJOGAPATTI', (req, res) => {
 });
 
 
+app.get('/deathCertificate/GWALADEVIJOGAPATTI', (req, res) => {
+   res.render("51");
+});
+app.get('/deathCertificate/RANIDEVIJOGAPATTI', (req, res) => {
+   res.render("52");
+});
+app.get('/deathCertificate/BINDADEVIJOGAPATTI', (req, res) => {
+   res.render("53");
+});
+app.get('/deathCertificate/RENUDEVIJOGAPATTI', (req, res) => {
+   res.render("54");
+});
+app.get('/deathCertificate/RANJITADEVIJOGAPATTI', (req, res) => {
+   res.render("55");
+});
 
 
 // Start the server
