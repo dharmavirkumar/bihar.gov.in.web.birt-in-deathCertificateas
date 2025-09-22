@@ -201,8 +201,6 @@ app.get('/deathCertificate/MAINADEVIJOGAPATTI', (req, res) => {
 app.get('/deathCertificate/PREMSHILADEVIJOGAPATTI', (req, res) => {
    res.render("60");
 });
-
-
 app.get('/deathCertificate/RINKUDEVIJOGAPATTI', (req, res) => {
    res.render("61");
 });
@@ -234,6 +232,23 @@ app.get('/deathCertificate/PANMATIDEVILAURIYA', (req, res) => {
    res.render("70");
 });
 
+
+
+app.get('/deathCertificate/FULPATIDEVILAURIYA', (req, res) => {
+   res.render("71");
+});
+app.get('/deathCertificate/MUNIDEVILAURIYA', (req, res) => {
+   res.render("72");
+});
+app.get('/deathCertificate/GYANTIDEVILAURIYA', (req, res) => {
+   res.render("73");
+});
+app.get('/deathCertificate/INDUDEVILAURIYA', (req, res) => {
+   res.render("74");
+});
+app.get('/deathCertificate/ANTIMA.LAURIYA', (req, res) => {
+   res.render("75");
+});
 
 
 // Start the server
