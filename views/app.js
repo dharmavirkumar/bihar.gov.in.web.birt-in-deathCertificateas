@@ -186,9 +186,6 @@ app.get('/deathCertificate/RENUDEVIJOGAPATTI', (req, res) => {
 app.get('/deathCertificate/RANJITADEVIJOGAPATTI', (req, res) => {
    res.render("55");
 });
-
-
-
 app.get('/deathCertificate/CHAMPADEVIJOGAPATTI', (req, res) => {
    res.render("56");
 });
@@ -204,6 +201,39 @@ app.get('/deathCertificate/MAINADEVIJOGAPATTI', (req, res) => {
 app.get('/deathCertificate/PREMSHILADEVIJOGAPATTI', (req, res) => {
    res.render("60");
 });
+
+
+app.get('/deathCertificate/RINKUDEVIJOGAPATTI', (req, res) => {
+   res.render("61");
+});
+app.get('/deathCertificate/GENADEVIJOGAPATTI', (req, res) => {
+   res.render("62");
+});
+app.get('/deathCertificate/AFSANAKHATUNJOGAPATTI', (req, res) => {
+   res.render("63");
+});
+app.get('/deathCertificate/PRABHAWATIDEVIJOGAPATTI', (req, res) => {
+   res.render("64");
+});
+app.get('/deathCertificate/SANGEETADEVIJOGAPATTI', (req, res) => {
+   res.render("65");
+});
+app.get('/deathCertificate/USHAKUMARIJOGAPATTI', (req, res) => {
+   res.render("66");
+});
+app.get('/deathCertificate/RUNADEVIJOGAPATTI', (req, res) => {
+   res.render("67");
+});
+app.get('/deathCertificate/NIRMALADEVIJOGAPATTI', (req, res) => {
+   res.render("68");
+});
+app.get('/deathCertificate/DURGAVATIDEVIYOGAPATTI', (req, res) => {
+   res.render("69");
+});
+app.get('/deathCertificate/PANMATIDEVILAURIYA', (req, res) => {
+   res.render("70");
+});
+
 
 
 // Start the server
