@@ -21,6 +21,9 @@ app.get('/deathCertificate/miradevilakhaura', (req, res) => {
    res.render("127");
 });
 
+app.get('/deathCertificate/MARACHIYADEVI', (req, res) => {
+   res.render("128");
+});
 
 
 // Start the server
